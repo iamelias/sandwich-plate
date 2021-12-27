@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		394B9F8F2779201D0088CC97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9F8E2779201D0088CC97 /* AppDelegate.swift */; };
 		394B9F912779201D0088CC97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9F902779201D0088CC97 /* SceneDelegate.swift */; };
-		394B9F932779201D0088CC97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9F922779201D0088CC97 /* ViewController.swift */; };
+		394B9F932779201D0088CC97 /* SandwichListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9F922779201D0088CC97 /* SandwichListViewController.swift */; };
 		394B9F962779201D0088CC97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394B9F942779201D0088CC97 /* Main.storyboard */; };
 		394B9F992779201D0088CC97 /* SandwichPlate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 394B9F972779201D0088CC97 /* SandwichPlate.xcdatamodeld */; };
 		394B9F9B2779201E0088CC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394B9F9A2779201E0088CC97 /* Assets.xcassets */; };
@@ -17,6 +17,10 @@
 		394B9FA92779201E0088CC97 /* SandwichPlateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9FA82779201E0088CC97 /* SandwichPlateTests.swift */; };
 		394B9FB32779201E0088CC97 /* SandwichPlateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9FB22779201E0088CC97 /* SandwichPlateUITests.swift */; };
 		394B9FB52779201E0088CC97 /* SandwichPlateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9FB42779201E0088CC97 /* SandwichPlateUITestsLaunchTests.swift */; };
+		394B9FC52779495C0088CC97 /* AddSandwichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9FC42779495C0088CC97 /* AddSandwichViewController.swift */; };
+		394B9FC7277956FE0088CC97 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9FC6277956FE0088CC97 /* Order.swift */; };
+		394B9FCA27795A6A0088CC97 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9FC927795A6A0088CC97 /* OrderViewModel.swift */; };
+		394B9FCC277963BE0088CC97 /* AddSandwichViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B9FCB277963BE0088CC97 /* AddSandwichViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,7 @@
 		394B9F8B2779201D0088CC97 /* SandwichPlate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandwichPlate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394B9F8E2779201D0088CC97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		394B9F902779201D0088CC97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		394B9F922779201D0088CC97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		394B9F922779201D0088CC97 /* SandwichListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichListViewController.swift; sourceTree = "<group>"; };
 		394B9F952779201D0088CC97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		394B9F982779201D0088CC97 /* SandwichPlate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SandwichPlate.xcdatamodel; sourceTree = "<group>"; };
 		394B9F9A2779201E0088CC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,10 @@
 		394B9FAE2779201E0088CC97 /* SandwichPlateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandwichPlateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		394B9FB22779201E0088CC97 /* SandwichPlateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichPlateUITests.swift; sourceTree = "<group>"; };
 		394B9FB42779201E0088CC97 /* SandwichPlateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichPlateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		394B9FC42779495C0088CC97 /* AddSandwichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSandwichViewController.swift; sourceTree = "<group>"; };
+		394B9FC6277956FE0088CC97 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		394B9FC927795A6A0088CC97 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		394B9FCB277963BE0088CC97 /* AddSandwichViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSandwichViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,14 @@
 		394B9F8D2779201D0088CC97 /* SandwichPlate */ = {
 			isa = PBXGroup;
 			children = (
+				394B9FC827795A580088CC97 /* View Models */,
+				394B9FC3277928200088CC97 /* Views */,
+				394B9FC2277928160088CC97 /* Models */,
+				394B9FC1277928100088CC97 /* Controllers */,
 				394B9F8E2779201D0088CC97 /* AppDelegate.swift */,
 				394B9F902779201D0088CC97 /* SceneDelegate.swift */,
-				394B9F922779201D0088CC97 /* ViewController.swift */,
+				394B9F922779201D0088CC97 /* SandwichListViewController.swift */,
+				394B9FC42779495C0088CC97 /* AddSandwichViewController.swift */,
 				394B9F942779201D0088CC97 /* Main.storyboard */,
 				394B9F9A2779201E0088CC97 /* Assets.xcassets */,
 				394B9F9C2779201E0088CC97 /* LaunchScreen.storyboard */,
@@ -128,6 +141,37 @@
 				394B9FB42779201E0088CC97 /* SandwichPlateUITestsLaunchTests.swift */,
 			);
 			path = SandwichPlateUITests;
+			sourceTree = "<group>";
+		};
+		394B9FC1277928100088CC97 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		394B9FC2277928160088CC97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				394B9FC6277956FE0088CC97 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		394B9FC3277928200088CC97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		394B9FC827795A580088CC97 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				394B9FC927795A6A0088CC97 /* OrderViewModel.swift */,
+				394B9FCB277963BE0088CC97 /* AddSandwichViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				394B9F932779201D0088CC97 /* ViewController.swift in Sources */,
+				394B9FC7277956FE0088CC97 /* Order.swift in Sources */,
+				394B9F932779201D0088CC97 /* SandwichListViewController.swift in Sources */,
 				394B9F992779201D0088CC97 /* SandwichPlate.xcdatamodeld in Sources */,
+				394B9FCC277963BE0088CC97 /* AddSandwichViewModel.swift in Sources */,
 				394B9F8F2779201D0088CC97 /* AppDelegate.swift in Sources */,
+				394B9FC52779495C0088CC97 /* AddSandwichViewController.swift in Sources */,
+				394B9FCA27795A6A0088CC97 /* OrderViewModel.swift in Sources */,
 				394B9F912779201D0088CC97 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
